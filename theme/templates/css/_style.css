@@ -5,3 +5,7 @@
  * Copyright (c) <%= new Date().getFullYear() %> <%= opts.authorName %>
  * Licensed under the GPLv2+ license.
  */
+ 
+//Include bower components
+// bower:scss
+// endbower

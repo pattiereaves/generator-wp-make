@@ -122,6 +122,7 @@ var ThemeGenerator = yeoman.generators.Base.extend({
 		this.template( 'theme/_footer.php', 'footer.php' );
 		this.template( 'theme/_functions.php', 'functions.php' );
 		this.template( '../../shared/theme/_core.php', 'includes/functions/core.php' );
+		this.template( '../../shared/theme/_enqueue_scripts.php', 'includes/functions/enqueue_scripts.php' );
 		this.template( '../../shared/theme/_humans.txt', 'humans.txt' );
 		this.copy( 'theme/screenshot.png', 'screenshot.png' );
 		this.copy( '../../shared/theme/readme-includes.md', 'includes/readme.md' );
@@ -189,6 +190,7 @@ var ThemeGenerator = yeoman.generators.Base.extend({
 		this.template( '../../shared/grunt/tasks/options/_qunit.js', 'tasks/options/qunit.js' );
 		this.template( '../../shared/grunt/tasks/options/_uglify.js', 'tasks/options/uglify.js' );
 		this.template( '../../shared/grunt/tasks/options/_watch.js', 'tasks/options/watch.js' );
+		this.template( '../../shared/grunt/tasks/options/_wiredep.js', 'tasks/options/wiredep.js' );
 		this.template( '../../shared/grunt/tasks/_build.js', 'tasks/build.js' );
 		this.template( '../../shared/grunt/tasks/_default.js', 'tasks/default.js' );
 		this.template( '../../shared/grunt/tasks/_js.js', 'tasks/js.js' );

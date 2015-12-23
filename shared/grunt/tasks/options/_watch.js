@@ -22,5 +22,9 @@ module.exports = {
 			options: {
 			debounceDelay: 500
 		}
-	}
+	},
+	bower: {
+        files: ['bower.json'],
+        tasks: ['wiredep:theme']
+    },
 };
